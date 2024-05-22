@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>Survey Form for Friends</h1>
+    
+    <form>
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        </div>
+        <div class="form-control">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+        </div>
+        <div class="form-control">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+        </div>
+        <div class="form-control">
+            <label for="date">Birthday</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div class="form-control">
+            <label for="option">Which option best describe you?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="college">College</option>
+                <option value="Job">Job</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Would you recommend to be my friend?</label>
+            <label for="recommend-1">
+            <input type="radio" id="recommend-1" name="recommend">Yes</label>
+            <label for="recommend-1">
+            <input type="radio" id="recommend-1" name="recommend">No</label>
+            <label for="recommend-1">
+            <input type="radio" id="recommend-1" name="recommend">Maybe</label>
+        </div>
+        <div class="form-control">
+            <label>Languages<small>(Select only that you know)</small></label>
+            <label for="inp-1"><input type="checkbox" name="inp">C</label>
+            <label for="inp-1"><input type="checkbox" name="inp">C++</label>
+            <label for="inp-1"><input type="checkbox" name="inp">JavaScript</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Html</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Php</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Python</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Java</label>
+            <label for="inp-1"><input type="checkbox" name="inp">React</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Angular</label>
+            <label for="inp-1"><input type="checkbox" name="inp">Spring</label>
+
+        </div>
+        <div class="form-control">
+            <label for="">Any comment or suggestion</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+        </div>
+        <button class="fun"><a href="page2.html" id="run">Submit</a></button>
+    </form>
+    </center>
+
+</body>
+</html>
